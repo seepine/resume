@@ -23,10 +23,10 @@ contact:
   #   text: 1xxxxxxxxxx
   #   url: tel:1xxxxxxxxxx
 # PDF下载链接
-download:
-  title: 下载PDF
-  icon: fas fa-download fa-fw
-  url: https://gitee.com/seepine/resume/raw/main/assets/resume.pdf
+# download:
+#   title: 下载PDF
+#   icon: fas fa-download fa-fw
+#   url: https://gitee.com/seepine/resume/raw/main/assets/resume.pdf
 ---
 
 <!-- {% raw %}
@@ -137,22 +137,13 @@ IT众包平台是一个面向企业面向大众的众包平台，企业可在平
 
 - 基于SpringBoot的后端开发
 - 基于Vue3、Arco的前端Web开发
-- 基于UniApp的微信小程序开发。
+- 基于UniApp的微信小程序开发
 - 基于e签宝的身份认证及在线合同签订
-- 设计测试部署及维护。
+- 对接民生银行、招商银行等实现线上打款
+- 设计测试部署及维护
 
 
 ## <i class="fab fa-github"></i> 开源贡献
-
-### climb-ui
-
-#### 2021/02 ~ 至今，一个数据驱动视图的Vue框架
-
-- 基于element-plus，支持vue3.0
-- 只需要20行代码即可实现完整后台表格界面并集成增删改查功能
-- 支持list-select、tree-select等复杂组件选择器
-- 源码：<https://github.com/seepine/climb>
-- 文档：<https://github.com/seepine/climb/blob/master/README.md>
 
 ### spring-boot-starter-auth
 
@@ -161,6 +152,7 @@ IT众包平台是一个面向企业面向大众的众包平台，企业可在平
 - 为SpringBoot项目快速集成接口权限控制
 - 开箱即用无需像OAuth2、Shiro等需要繁杂配置
 - 也支持自定义请求头参数、缓存redis的key、登录有效期、是否自动续租token过期时间等
+- 通过注解即可实现接口限速、日志等功能
 - 源码：<https://github.com/seepine/spring-boot-starter-auth>
 - 文档：<https://github.com/seepine/spring-boot-starter-auth/blob/master/README.md>
 
@@ -172,6 +164,26 @@ IT众包平台是一个面向企业面向大众的众包平台，企业可在平
 - 使用统一接口OssTemplate，更换对象存储服务商也无需修改代码。
 - 源码：<https://github.com/seepine/oss-spring-boot-starter>
 - 文档：<https://github.com/seepine/oss-spring-boot-starter/blob/master/README.md>
+
+### crco
+
+#### 2022/02 ~ 至今，一个数据驱动视图的Vue框架
+
+- 基于arco-design，vue3.0
+- 只需要几行代码即可实现完整后台表格界面并集成增删改查功能
+- 支持list-select、tree-select等复杂组件选择器
+- 源码：<https://github.com/seepine/crco>
+- 文档：<https://crco.seepine.com>
+
+### climb-ui
+
+#### 2021/02 ~ 至今，一个数据驱动视图的Vue框架
+
+- 基于element-plus，支持vue3.0
+- 只需要20行代码即可实现完整后台表格界面并集成增删改查功能
+- 支持list-select、tree-select等复杂组件选择器
+- 源码：<https://github.com/seepine/climb>
+- 文档：<https://github.com/seepine/climb/blob/master/README.md>
 
 <!-- <fancybox>
 <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>

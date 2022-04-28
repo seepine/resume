@@ -3,9 +3,9 @@
 # Site
 # language: zh-CN
 
-shortcut_icon: https://gitee.com/wraptor/resume/raw/master/assets/avatar.png
-favicon: https://gitee.com/wraptor/resume/raw/master/assets/avatar.png
-avatar: https://gitee.com/wraptor/resume/raw/master/assets/avatar.png
+# shortcut_icon: https://gitee.com/wraptor/resume/raw/master/assets/avatar.png
+favicon: /avatar.png
+# avatar: https://gitee.com/wraptor/resume/raw/master/assets/avatar.png
 
 # 主题
 theme: hexo-theme-resume
@@ -15,7 +15,7 @@ theme_config:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 # url: https://resume.js.org
 # url: http://localhost:4000
-root: /resume/
+# root: /resume/
 permalink: posts/:title/
 tag_dir: tags
 archive_dir: archives
@@ -113,8 +113,8 @@ import:
   - "<meta name='msapplication-TileColor' content='#1BC3FB'>"
   - "<meta name='msapplication-config' content='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/browserconfig.xml'>"
   link:
-  - "<link rel='shortcut icon' type='image/x-icon' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/favicon.ico'>"
-  - "<link rel='icon' type='image/x-icon' sizes='32x32' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/favicon-32x32.png'>"
+  - "<link rel='shortcut icon' type='image/x-icon' href='/avatar.png'>"
+  - "<link rel='icon' type='image/x-icon' sizes='32x32' href='/avatar.png'>"
   - "<link rel='apple-touch-icon' type='image/png' sizes='180x180' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/apple-touch-icon.png'>"
   - "<link rel='mask-icon' color='#1BC3FB' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/safari-pinned-tab.svg'>"
   - "<link rel='manifest' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/site.webmanifest'>"
